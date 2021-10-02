@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
+
     <!-- Шапка сайта-->
-    <header>
-        <nav>
+    
+    <header class="container-header">
+      <div class="container">
+        <nav class="container main-nav">
           <a href="index.html" class="logo">Web<span class="studio">Studio</span></a>
 
             <ul class="site-nav list">
@@ -24,13 +28,16 @@
                 <li  class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
                 <li  class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
             </ul>
-
         </nav>
+      </div>
     </header>
+
+
     <main>
         <!-- Фильтр -->
-        <section>
-          <h1>Фильтр</h1>
+        <section class="container-filter">
+          <div class="flex-container">
+        <!--<h1>Фильтр</h1>-->
             <ul class="button-link list">
               <li> <button type="button" class="button"> Все</button></li>
               <li> <button type="button" class="button"> Веб-сайты</button></li>
@@ -38,7 +45,7 @@
               <li> <button type="button" class="button"> Дизайн</button></li>
               <li> <button type="button" class="button"> Маркетинг</button></li>
             </ul>
-
+            
             <ul class="project list">
                   <li class="item">
                       <a href="">
@@ -104,11 +111,13 @@
                     </a>
                 </li>
               </ul>
+           </div>
         </section>
     </main>
     
     <!--Футер-->
     <footer class="footer-bg">
+      <div class="container">
       <a href="index.html" class="logo">Web<span class="studio-bottom">Studio</span></a>
       <address>
           <ul class="footer list">
@@ -117,6 +126,7 @@
               <li class="item"><a href="tel:+380991111111" class="link"> +38 099 111 11 11</a></li>
           </ul>
       </address>
+      </div>
   </footer>
 </body>
 </html>
